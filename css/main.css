@@ -1,0 +1,114 @@
+
+/* 
+=================================
+MAIN
+=================================
+*/
+
+body {
+	background-color: #000;
+}
+
+.main {
+	background-color: #fff;
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 500px;
+}
+
+
+/*
+=================================
+RYU / HADOUKEN
+=================================
+*/
+
+.ryu {
+	float: left;
+}
+
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+	width: 659px;
+	height: 494px;
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+	background-repeat: no-repeat;
+}
+
+.ryu-ready, .ryu-throwing, .ryu-cool {
+	display: none;
+}
+
+.ryu-ready {
+	background-image: url('../images/ryu-ready-position.gif');	
+}
+
+.ryu-still {
+	background-image: url('../images/ryu-standing-still.png');
+}
+
+.ryu-throwing {
+	background-image: url('../images/ryu-throwing-hadouken.png');
+}
+
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif')
+}
+
+/* HADOUKEN */
+
+.hadouken {
+	background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none; 
+	position:  relative;
+	top: 167px;
+	left: -160px;
+	float: left;
+}
+
+
+/* 
+=================================
+INSTRUCTIONS
+=================================
+*/
+
+.instructions {
+	padding-top: 100px;
+	position: absolute;
+	left: 690px;
+}
+
+h4 {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-family: 'Gochi Hand';
+	font-size: 2em;
+}
+
+p {
+	font-family: 'Gochi Hand';
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+
+/*
+=================================
+STREET FIGHTER LOGO
+=================================
+*/
+
+.sflogo {
+	background-image: url('../images/sf_logo.gif');
+	width: 250px;
+	height: 113px;
+	position: relative;
+	left: 590px;
+	top: 60px;
+}
